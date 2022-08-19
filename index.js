@@ -10,7 +10,6 @@ let score = 10;
 num=Number(num.toFixed(0))
 function calculate()
 {
-    console.log(num);
     if(score!=0)
     {
         let userinput = Number(input.value);
@@ -62,6 +61,5 @@ function calculate()
         button.innerHTML=`<button onclick = "location.reload() " id = "reset">RESET</button>`
     }
 
-    console.log(score);
     
 }

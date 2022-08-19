@@ -53,6 +53,7 @@ function calculate()
             up.style.visibility=`hidden`;
             down.style.visibility=`hidden`;
             hint.innerText=`YOU FOUND THE NUMBER.SCORE-${score}`
+            button.innerHTML=`<button onclick = "location.reload() " id = "reset">RESET</button>`
         }
     }
     if(score==0)

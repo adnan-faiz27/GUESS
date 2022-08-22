@@ -14,7 +14,7 @@ function calculate()
     {
         let userinput = Number(input.value);
         
-        if(userinput>num && userinput>num+10)
+        if(userinput>num && userinput>num+15)
         {
             down.style.visibility=`visible`;
             up.style.visibility=`hidden`;
@@ -22,7 +22,7 @@ function calculate()
             score--;
             S.innerText=`SCORE ${score}`;
         }
-        if(userinput>num && userinput<num+10)
+        if(userinput>num && userinput<num+15)
         {
             down.style.visibility=`visible`;
             up.style.visibility=`hidden`;
@@ -30,7 +30,7 @@ function calculate()
             score--;
             S.innerText=`SCORE ${score}`;
         }
-        if(userinput<num && userinput<num-10)
+        if(userinput<num && userinput<num-15)
         {
             up.style.visibility=`visible`;
             down.style.visibility=`hidden`;
@@ -38,7 +38,7 @@ function calculate()
             score--;
             S.innerText=`SCORE ${score}`;
         }
-        if(userinput<num && userinput>num-10)
+        if(userinput<num && userinput>num-15)
         {
             up.style.visibility=`visible`;
             down.style.visibility=`hidden`;
